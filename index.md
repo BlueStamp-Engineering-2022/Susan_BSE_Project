@@ -1,5 +1,5 @@
 ﻿# Real Time Planet Tracking System
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
+This project aims to make a system that effectively tracks celestial bodies (such as planet) with a fair amount of accuracy. It uses  algorithms along with a processing unit for the calculations and a servo mechanism to show the location of the planet physically!
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -22,3 +22,9 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 My first milestone was setting up and hooking up the Raspberry Pi and all the necessary components onto my tv. The heatsinks, the sd card, and the controller were all added to ensure that the Raspberry Pi was working. Instead of the Raspberry Pi Os software, I had to first download a different software called Retro Pie. With Retro Pie, I needed to download an Imager for Raspberry Pi. Raspberry Pi Imager automatically downloads a list of the latest versions of Raspbian supported by the Raspberry Pi. Raspbian is the typical Raspberry Pi Os software, the one I needed on the Raspberry Pi was Retro Pi. With the included SD card, I plugged in the SD into my computer and launched the Imager. The imager allowed me to set the Operating System to Retro Pi instead of Raspbian onto the SD card. With the OS imaged onto the SD, I plugged the SD card back into the Raspberry Pi and rebooted the system and Retro Bi booted up.
 
 [![First Milestone](https://i3.ytimg.com/vi/fi504ivBobE/maxresdefault.jpg)(https://youtu.be/fi504ivBobE){:target="_blank" rel="noopener"}
+
+# Starter Project
+  
+My starter project was the Simon Says game which was a relatively easy build since it was mainly soldering. The product is a fun memory game that lights up in unique patterns for the user to try and remember.
+
+[![Starter Project](https://i3.ytimg.com/vi/fi504ivBobE/maxresdefault.jpg)(https://youtu.be/fi504ivBobE){:target="_blank" rel="noopener"}

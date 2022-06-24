@@ -19,9 +19,9 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 # First Milestone
   
 
-My first milestone was setting up and hooking up the Raspberry Pi and all the necessary components onto my tv. The heatsinks, the sd card, and the controller were all added to ensure that the Raspberry Pi was working. Instead of the Raspberry Pi Os software, I had to first download a different software called Retro Pie. With Retro Pie, I needed to download an Imager for Raspberry Pi. Raspberry Pi Imager automatically downloads a list of the latest versions of Raspbian supported by the Raspberry Pi. Raspbian is the typical Raspberry Pi Os software, the one I needed on the Raspberry Pi was Retro Pi. With the included SD card, I plugged in the SD into my computer and launched the Imager. The imager allowed me to set the Operating System to Retro Pi instead of Raspbian onto the SD card. With the OS imaged onto the SD, I plugged the SD card back into the Raspberry Pi and rebooted the system and Retro Bi booted up.
+My first milestone was setting up most of my basic hardware and getting a good majority of my software to work. As of now: the GPS displays current latitude, longitude, date, and time (however it only works accurately if its placed outside); the MPU 9265 determines the yaw, pitch and roll angle; the potentiometer uses a dial that allows the user to choose which planet the laser should point towards; the servos use the calibrated data and turn to face the laser (which is attached to the 180 servo) towards where the selected planet is. However there are still a number of things that I need to fix including: getting the 360 servo to stop rotating continuously in a circle; align my pan-tilt setup at its initial position (both at 0°) with the 0° Azimuth of your my location; switch to using the outlet as my power source; and adjust the laser to a more accurate position.
 
-[![First Milestone](https://i3.ytimg.com/vi/fi504ivBobE/maxresdefault.jpg)(https://youtu.be/fi504ivBobE){:target="_blank" rel="noopener"}
+[![First Milestone](https://i3.ytimg.com/vi/7HUSQXu9PHg/maxresdefault.jpg)(https://youtu.be/7HUSQXu9PHg){:target="_blank" rel="noopener"}
 
 # Starter Project
   

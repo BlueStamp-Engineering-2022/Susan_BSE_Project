@@ -5,7 +5,7 @@ This project aims to make a system that effectively tracks celestial bodies (suc
 |:--:|:--:|:--:|:--:|
 | Susan Chen | Cupertino Highschool | idk tbh | Incoming Junior
 
-![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg](https://photos.google.com/share/AF1QipP7_22Q3D-zpxco7W_U-vXEI7oBlBkMPE-CGVUpT0Cc0Vgh-Wigc7rzlNEuOBEoYQ/photo/AF1QipPIKsufhnq0QrYh3yglEym01im3-JNiGheXIf_a?key=NTU3UE9oUGgxbVNpZnltdVd0UTBJTC1DSlRnVmxn)
+![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg])(https://photos.google.com/share/AF1QipP7_22Q3D-zpxco7W_U-vXEI7oBlBkMPE-CGVUpT0Cc0Vgh-Wigc7rzlNEuOBEoYQ/photo/AF1QipPIKsufhnq0QrYh3yglEym01im3-JNiGheXIf_a?key=NTU3UE9oUGgxbVNpZnltdVd0UTBJTC1DSlRnVmxn)
   
 # Final Milestone
 My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
@@ -15,7 +15,7 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 # Second Milestone
 My second milestone is essentially a refinement of my first milestone. I was able to get both the servos to work with the help of a lot of troubleshooting both in the hardware and software aspect. The other main hardware change is that the potentiometer now works accurately so the servos turn the correct angle to face where the selected planet is. There were also a couple of major changes I made to the arduino code which allowed the 360 servo to not continuously rotate in one direction and tangle up the wires, but rather turn back and forth. I also replaced my 180 servo which was broken and attached the two servos together using a 3D printed L clip. 
 
-[![Second Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone"){:target="_blank" rel="noopener"}
+[![Second Milestone](https://i3.ytimg.com/vi/GbQiZ9fxnH8/maxresdefault.jpg)](https://youtu.be/GbQiZ9fxnH8 "Second Milestone"){:target="_blank" rel="noopener"}
 # First Milestone
   
 

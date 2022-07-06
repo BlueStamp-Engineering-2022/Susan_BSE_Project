@@ -6,6 +6,8 @@ This project aims to make a system that effectively tracks celestial bodies (suc
 | Susan Chen | Cupertino Highschool | idk tbh | Incoming Junior
 
 ![Headstone Image](https://lh3.googleusercontent.com/pw/AM-JKLVvRNoiAt3xiW5aIrgEE5R9s-fNANOJQKTvbL36eEcQpbBJw5qJqG5sMP1f0ghJ8sFTwslkKLIicKHJgpfjkpUnAtv0xUaZPhbdftFTPQm5wDOEJGQ0TEK5mm0dfvyZcqWeH-EVN-DIxdkHhSXIoX8G=w1406-h1404-no?authuser=0)
+
+![Circuit Diagram](https://drive.google.com/file/d/1r0U-8fzhE0x0PJbHp0aHxNRT4yodSdp0/view?usp=sharing)
   
 # Final Milestone
 My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 

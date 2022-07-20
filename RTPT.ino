@@ -5,6 +5,7 @@
 #include <SPI.h>
 #include <Wire.h>
 #include <LiquidCrystal.h>
+#include <Adafruit_NeoPixel.h>
 
 #define AK8963_ADDRESS   0x0C
 #define WHO_AM_I_AK8963  0x00 // should return 0x48
@@ -150,6 +151,16 @@
 
 #define AHRS true         // set to false for basic data read
 #define SerialDebug true   // set to true to get Serial output for debugging
+
+// Which pin on the Arduino is connected to the NeoPixels?
+#define PIN        3 
+// How many NeoPixels are attached to the Arduino?
+#define NUMPIXELS 24
+
+Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+
+
+int fixedHeadingDegrees; // Used to store Heading value
 
 enum Ascale {
   AFS_2G = 0,
@@ -322,6 +333,7 @@ void setup()
 
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
+  pixels.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
 }
 void loop()
 {
@@ -329,6 +341,9 @@ void loop()
   MPUloop();
   //set lcd cursor
   lcd.setCursor(0, 1);
+  //pixels.clear(); // Set all pixel colors to 'off'
+  //pixels.setPixelColor(i, pixels.Color(200, 0, 50));
+  //pixels.show();   // Send the updated pixel colors to the hardware.
   
   if (gps.location.isValid())
   { Lat = gps.location.lat();
@@ -386,6 +401,10 @@ void loop()
   ana = analogRead(A14);
   pno = planetInput(ana); /*Serial.prinmt(pno);*/ Serial.print("\t"); Serial.print(nyaw); Serial.print("\t"); Serial.print(Azim); Serial.print("\t\t"); Serial.print(Azimuth); Serial.print("\t"); Serial.print(Elevation); Serial.print("\t\t"); Serial.print(Lat, 6); Serial.print("\t"); Serial.print(Long, 6); Serial.print("\t"); Serial.print(yy); Serial.print("\t"); Serial.print(mu); Serial.print("\t"); Serial.print(dd); Serial.print("\t"); Serial.print(hh); Serial.print("\t"); Serial.println(mm);  
 
+//LED Ring code
+  pixels.clear(); // Set all pixel colors to 'off'
+  pixels.setPixelColor(abs(Azimuth / 15), pixels.Color(200, 0, 50));
+  pixels.show();
   
   //myservoAz.attach(9);
   //delay(10);
